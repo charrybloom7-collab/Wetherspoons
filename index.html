@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Wetherspoons-Menus.uk: Menu Guide, Prices and Food Options</title>
+<meta name="description" content="Explore Wetherspoons-Menus.uk: menu categories, prices, nutrition, deals, dietary information and how to use it responsibly.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--g:#0b4f3a;--g2:#083828;--gold:#e0a526;--cream:#fbf7ee;--ink:#1d2a25;--mut:#5b6b64;--card:#fff;--line:#e6dfcd}
+@media(prefers-color-scheme:dark){:root{--cream:#101a16;--ink:#ecf1ee;--mut:#a9b8b0;--card:#16231e;--line:#2a3d34}}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{font-family:Inter,system-ui,Arial,sans-serif;background:var(--cream);color:var(--ink);line-height:1.75;font-size:17px}
+.w{max-width:1120px;margin:0 auto;padding:0 24px}
+a{color:var(--g);font-weight:600}
+@media(prefers-color-scheme:dark){a{color:var(--gold)}}
+header{position:sticky;top:0;z-index:50;background:var(--g2);box-shadow:0 2px 12px #0004}
+header .w{display:flex;align-items:center;justify-content:space-between;height:64px;white-space:nowrap}
+.logo{font:800 21px 'Playfair Display',Georgia,serif;color:#fff;text-decoration:none}
+.logo span{color:var(--gold)}
+nav{display:flex;gap:22px;align-items:center}
+nav a{color:#dfeae4;text-decoration:none;font-size:14px;font-weight:500}
+nav a:hover{color:var(--gold)}
+nav .cta{background:var(--gold);color:#241a00;padding:8px 16px;border-radius:999px;font-weight:700}
+@media(max-width:900px){nav a:not(.cta){display:none}}
+.hero{background:linear-gradient(135deg,var(--g2),var(--g) 60%,#12785a);color:#fff;padding:90px 0 80px;position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;right:-120px;top:-120px;width:420px;height:420px;border-radius:50%;background:radial-gradient(#e0a52633,transparent 70%)}
+.tag{display:inline-block;background:#ffffff1f;border:1px solid #ffffff40;padding:6px 14px;border-radius:999px;font-size:13px;letter-spacing:.06em;text-transform:uppercase;margin-bottom:20px}
+h1{font:800 clamp(32px,5.2vw,56px)/1.12 'Playfair Display',Georgia,serif;max-width:860px}
+h1 em{color:var(--gold);font-style:normal}
+.hero p{max-width:800px;margin-top:20px;font-size:18.5px;color:#e3efe9}
+.hero p a{color:var(--gold);text-decoration-thickness:2px;word-break:break-all}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:30px}
+.chips a{background:#fff;color:var(--g2);text-decoration:none;padding:9px 18px;border-radius:999px;font-size:14px}
+.chips a:hover{background:var(--gold)}
+section{padding:62px 0}
+section:nth-of-type(even){background:var(--card)}
+h2{font:700 clamp(25px,3.5vw,36px)/1.2 'Playfair Display',Georgia,serif;color:var(--g)}
+@media(prefers-color-scheme:dark){h2,h3{color:var(--gold)}}
+h2:after{content:"";display:block;width:64px;height:4px;background:var(--gold);border-radius:4px;margin-top:12px}
+p{margin-top:14px;max-width:880px}
+.lead{margin-top:22px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:22px;margin-top:28px}
+.card{background:var(--card);border:1px solid var(--line);border-top:4px solid var(--gold);border-radius:14px;padding:24px;box-shadow:0 6px 20px #0000000d;transition:.25s}
+section:nth-of-type(even) .card{background:var(--cream)}
+.card:hover{transform:translateY(-4px);box-shadow:0 12px 28px #00000020}
+h3{font:700 20px 'Playfair Display',Georgia,serif;color:var(--g)}
+.card p{font-size:16px;color:var(--mut);margin-top:10px}
+.note{margin-top:26px;background:#e0a52620;border-left:5px solid var(--gold);padding:16px 20px;border-radius:0 12px 12px 0;max-width:880px}
+.warn{background:#c0392b18;border-left-color:#c0392b}
+.tw{overflow-x:auto;margin-top:26px;border-radius:14px;border:1px solid var(--line)}
+table{width:100%;border-collapse:collapse;min-width:620px;background:var(--card)}
+th{background:var(--g);color:#fff;text-align:left;padding:14px 18px;font-size:14px;letter-spacing:.04em}
+td{padding:13px 18px;border-top:1px solid var(--line);font-size:15.5px}
+td:first-child{font-weight:700;color:var(--g)}
+@media(prefers-color-scheme:dark){td:first-child{color:var(--gold)}}
+tr:hover td{background:#e0a52614}
+details{background:var(--card);border:1px solid var(--line);border-radius:12px;margin-top:12px;max-width:900px}
+section:nth-of-type(even) details{background:var(--cream)}
+summary{cursor:pointer;padding:16px 20px;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:12px}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"+";color:var(--gold);font-size:24px;line-height:1}
+details[open] summary:after{content:"–"}
+details p{margin:0;padding:0 20px 18px;color:var(--mut)}
+footer{background:var(--g2);color:#cfdcd5;padding:54px 0 calc(26px + env(safe-area-inset-bottom,0px))}
+.fg{display:grid;grid-template-columns:2fr 1fr 1fr;gap:34px}
+footer h4{color:#fff;font:700 17px 'Playfair Display',Georgia,serif;margin-bottom:12px}
+footer p{font-size:15px;margin-top:0}
+footer ul{list-style:none}
+footer li{margin:7px 0}
+footer a{color:#cfdcd5;font-weight:500;text-decoration:none;font-size:15px}
+footer a:hover{color:var(--gold)}
+.soc{display:flex;gap:12px;margin-top:18px}
+.soc a{width:42px;height:42px;border-radius:50%;background:#ffffff18;display:grid;place-items:center;transition:.2s}
+.soc a:hover{background:var(--gold);transform:translateY(-3px)}
+.soc svg{width:20px;height:20px;stroke:#fff;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.soc a:hover svg{stroke:#241a00}
+.copy{border-top:1px solid #ffffff22;margin-top:36px;padding-top:20px;font-size:13.5px;text-align:center}
+@media(max-width:760px){.fg{grid-template-columns:1fr}.hero{padding:60px 0}section{padding:46px 0}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<symbol id="fb" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></symbol>
+<symbol id="tw" viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></symbol>
+<symbol id="ig" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></symbol>
+<symbol id="yt" viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><path d="M9.75 15.02 15.5 11.75 9.75 8.48z"/></symbol>
+</svg>
+
+<!-- HEADER (one line) -->
+<header>
+<div class="w">
+<a class="logo" href="#top">Wetherspoons<span>-Menus.uk</span></a>
+<nav>
+<a href="#about">About</a><a href="#features">Features</a><a href="#food">Food Menu</a><a href="#glance">At a Glance</a><a href="#official">Official?</a><a href="#faq">FAQs</a>
+<a class="cta" href="#how">How to Use</a>
+</nav>
+</div>
+</header>
+
+<main id="top">
+<!-- HERO / INTRO -->
+<div class="hero">
+<div class="w">
+<span class="tag">Menu Guide • Prices • Food Options</span>
+<h1>Wetherspoons-Menus.uk: <em>Menu Guide, Prices</em> and Food Options</h1>
+<p>Finding the right meal at a British pub is easier when you can explore the menu before visiting. <!-- LINK 1 (intro, mid-paragraph) --><a href="https://wetherspoons-menus.uk/">https://wetherspoons-menus.uk/</a> is a website that helps readers explore Wetherspoons menu categories, compare food options, and find information about prices and nutrition. It is designed for people who want to plan a meal, discover different dishes, or understand what may be available at their local pub.</p>
+<p>From a traditional English breakfast to burgers, curries, fish and chips, desserts, and vegetarian alternatives, Wetherspoons offers a variety of choices. However, selecting a suitable meal involves more than simply looking at a dish name. Customers may also want to check prices, portion sizes, calories, allergens, and current offers.</p>
+<p>This article explains how Wetherspoons-Menus.uk can help users research the menu, what information to look for, and why checking the latest details before visiting remains important.</p>
+<div class="chips"><a href="#features">🔎 Features</a><a href="#food">🍽️ Food Menu</a><a href="#prices">💷 Prices</a><a href="#diet">🌱 Dietary Info</a><a href="#faq">❓ FAQs</a></div>
+</div>
+</div>
+
+<section id="about">
+<div class="w">
+<h2>What Is Wetherspoons-Menus.uk?</h2>
+<p class="lead">Wetherspoons-Menus.uk is an independent informational website focused on the Wetherspoons menu. It organises information into different food categories so visitors can explore the dishes they are interested in without navigating through unrelated information.</p>
+<p>The website features menu sections covering breakfast, chicken dishes, burgers, gourmet burgers, curries, small plates, pub classics, pizza, desserts, children's meals, and other food choices. It also provides information about menu prices, nutrition, deals, and dietary options.</p>
+<div class="note warn">The website is not the official JD Wetherspoon company website. Its content should therefore be treated as an independent reference rather than a direct source of restaurant services or guaranteed real-time menu availability.</div>
+</div>
+</section>
+
+<section id="features">
+<div class="w">
+<h2>Main Features of Wetherspoons-Menus.uk</h2>
+<p class="lead">The website brings several types of menu information together, making it useful for readers who want to research their dining options before going out.</p>
+<div class="grid">
+<div class="card"><h3>1. Different Menu Categories</h3><p>One useful feature is the organisation of dishes into separate categories. Instead of searching through a long list of unrelated items, visitors can focus on the type of food they want.</p><p>For example, someone looking for breakfast can explore morning meals, while a customer interested in burgers can browse the burger category. People who prefer lighter meals can investigate salads, small plates, or jacket potatoes.</p><p>This structure can make menu research more convenient, particularly for first-time visitors.</p></div>
+<div class="card"><h3>2. Menu Prices</h3><p>Price information helps customers estimate how much they might spend on a meal. Wetherspoons-Menus.uk includes menu-related pricing information, although the figures displayed on an independent website may not always reflect the latest price at every pub.</p><p>Prices can vary by location and change over time. Readers should confirm the current price with the relevant pub or its official menu before making plans.</p></div>
+<div class="card"><h3>3. Calories and Nutrition</h3><p>Nutrition information can help customers compare dishes according to their dietary goals. When available, calorie figures can provide a useful starting point for understanding the energy content of a meal.</p><p>However, calorie information should not be confused with a complete assessment of nutritional quality. Ingredients, portion sizes, sauces, sides, and drinks can all affect the overall meal.</p><p>For accurate details, consult the latest information published by JD Wetherspoon.</p></div>
+<div class="card"><h3>4. Deals and Special Offers</h3><p>The website also discusses Wetherspoons offers and themed food promotions. These may include selected deals associated with burgers, curries, steaks, or smaller dishes.</p><p>Promotions are subject to their own conditions and may differ between locations. A deal described on an independent website should always be verified before relying on its price, serving time, or availability.</p></div>
+<div class="card"><h3>5. Dietary Choices</h3><p>Customers following vegetarian, vegan, or gluten-avoidance diets may find it helpful to research suitable menu categories in advance.</p><p>Nevertheless, a dish's suitability depends on its actual ingredients and preparation. People with allergies or serious intolerances should consult the official allergen information and speak with staff before ordering.</p></div>
+</div>
+</div>
+</section>
+
+<section id="food">
+<div class="w">
+<h2>Exploring the Wetherspoons Food Menu</h2>
+<p class="lead">Wetherspoons-Menus.uk covers a range of food categories that can help visitors decide what they would like to eat.</p>
+<div class="grid">
+<div class="card"><h3>🍳 Breakfast Menu</h3><p>Breakfast is a popular choice for people who want a meal before work, travel, or a day out. Depending on the pub's current menu, options may include traditional cooked breakfasts, breakfast muffins, eggs, and vegetarian alternatives.</p><p>When comparing breakfast dishes, consider the portion size, ingredients, price, and whether a hot drink is included in an advertised offer.</p><p>Breakfast serving times can vary, so check the opening hours of your chosen pub before travelling.</p></div>
+<div class="card"><h3>🍔 Burger Menu</h3><p>Burgers are suitable for customers looking for a substantial lunch or dinner. The menu may include different beef, chicken, or plant-based options, depending on the current selection.</p><p>Some burgers are served with chips or other accompaniments. To estimate the total cost, compare the full meal rather than looking at the price of the main item alone.</p></div>
+<div class="card"><h3>🍗 Chicken Menu</h3><p>Chicken dishes offer variety for people who want an alternative to traditional pub classics. Depending on the available selection, customers may find different preparations, including grilled, breaded, or fried dishes.</p><p>Ingredients and cooking methods matter if you are monitoring calories or have dietary restrictions.</p></div>
+<div class="card"><h3>🍛 Curries and Curry Club</h3><p>The curry category introduces a range of spiced dishes alongside more traditional British pub food. Depending on the menu, choices may include different curry styles served with rice or other accompaniments.</p><p>Wetherspoons has promoted curry-related offers, but their availability and terms can change. Check the current information for the relevant pub rather than assuming that every location offers identical dishes or prices.</p></div>
+<div class="card"><h3>🐟 Pub Classics</h3><p>Traditional pub meals remain an important part of the dining experience. Fish and chips, pies, and other familiar main courses may appeal to customers who prefer classic British food.</p><p>These dishes can be useful choices for lunch or dinner, particularly when dining with friends who have different tastes.</p></div>
+<div class="card"><h3>🍕 Pizza, Small Plates, and Lighter Meals</h3><p>Customers who do not want a traditional main course can explore pizza, salads, jacket potatoes, sandwiches, and smaller dishes where available.</p><p>Small plates may suit a lighter appetite or a group looking to sample different foods. Salads and jacket potatoes offer further alternatives, although toppings and preparation can significantly affect the nutritional content.</p></div>
+<div class="card"><h3>🍰 Desserts and Children's Meals</h3><p>Desserts provide an option for customers who want something sweet after their main course. Families can also explore the children's menu to find age-appropriate meal options.</p><p>Availability, ingredients, and prices should be confirmed through the current menu at the chosen location.</p></div>
+</div>
+</div>
+</section>
+
+<section id="glance">
+<div class="w">
+<h2>Wetherspoons Menu Categories at a Glance</h2>
+<p class="lead">The following table summarises the main categories readers may encounter while researching the menu.</p>
+<div class="tw"><table>
+<thead><tr><th>Menu Category</th><th>Examples of Choices</th><th>Main Benefit</th></tr></thead>
+<tbody>
+<tr><td>Breakfast</td><td>Cooked breakfasts and muffins</td><td>Convenient morning meals</td></tr>
+<tr><td>Burgers</td><td>Beef, chicken, and plant-based varieties</td><td>Filling lunch or dinner</td></tr>
+<tr><td>Chicken</td><td>Different chicken dishes</td><td>Variety in preparation and flavour</td></tr>
+<tr><td>Curries</td><td>Spiced dishes with accompaniments</td><td>An alternative to classic pub food</td></tr>
+<tr><td>Pub classics</td><td>Fish and chips, pies, and main courses</td><td>Familiar British favourites</td></tr>
+<tr><td>Small plates</td><td>Smaller dishes and snacks</td><td>Flexible portions</td></tr>
+<tr><td>Pizza and lighter meals</td><td>Pizza, salads, and jacket potatoes</td><td>More choice for different appetites</td></tr>
+<tr><td>Desserts</td><td>Sweet treats and puddings</td><td>A finishing course</td></tr>
+<tr><td>Children's menu</td><td>Smaller meals for children</td><td>Family dining</td></tr>
+<tr><td>Drinks</td><td>Hot drinks, soft drinks, and alcoholic beverages</td><td>Refreshments with meals</td></tr>
+</tbody></table></div>
+<div class="note">This table is a general guide. It does not guarantee that every item will be available at every Wetherspoons location.</div>
+</div>
+</section>
+
+<section id="how">
+<div class="w">
+<h2>How to Use Wetherspoons-Menus.uk Effectively</h2>
+<p class="lead">Getting the most from a menu-information website starts with knowing what you need to find.</p>
+<p>First, identify the category that matches your preference. If you are visiting for breakfast, there is little reason to begin with desserts or evening meals. Narrowing your search makes it easier to compare relevant choices.</p>
+<p>Next, review the available descriptions and prices. Treat prices on an independent website as a guide until you confirm them with the specific pub.</p>
+<p>If nutrition matters to you, compare the published calorie information and check the ingredients of your preferred dish. <a href=https://www.podchaser.com/podcasts/delta-exploit-android-6638891>Customers with allergies</a> should use the official allergen guide rather than depending on general menu descriptions.</p>
+<p>Finally, check opening hours, serving times, and any applicable promotions. This is especially useful if you are travelling to an unfamiliar location or arranging a meal for a group.</p>
+</div>
+</section>
+
+<section id="prices">
+<div class="w">
+<h2>Why Menu Prices and Availability Can Differ</h2>
+<p class="lead">A common mistake when researching pub menus is assuming that every location has exactly the same prices and selection.</p>
+<!-- LINK 2 (content, mid-section). REPLACE the href with your second URL -->
+<p>In practice, prices, dishes, promotions, and serving arrangements can vary. Menus may also change as ingredients, seasonal options, and company offers are updated. If you want to <a href="https://REPLACE-WITH-YOUR-SECOND-LINK.com/">compare current Wetherspoons menu prices</a>, use it as a starting point and then check your local pub.</p>
+<p>An independent website may not reflect every change immediately. A price shown on a page could therefore differ from the amount displayed at your local pub.</p>
+<div class="note">For this reason, Wetherspoons-Menus.uk is best used for initial research and menu discovery. The official JD Wetherspoon website, app, or information at the pub should be used to confirm current details before ordering.</div>
+</div>
+</section>
+
+<section id="diet">
+<div class="w">
+<h2>Vegetarian, Vegan, and Allergen Information</h2>
+<p class="lead">Dietary suitability is an important part of menu research. Vegetarian meals avoid meat and fish, while vegan dishes are intended to exclude animal-derived ingredients. These labels should not be treated as interchangeable.</p>
+<p>People avoiding gluten should also verify the ingredients and preparation details of each dish rather than assuming that a particular category is automatically suitable.</p>
+<p>For customers with food allergies, checking the latest official allergen information is essential. Ingredients and <a href=https://sites.google.com/view/delta-key-obtener-clave/home>preparation procedures may</a> change, and a shared kitchen environment may create cross-contact risks.</p>
+<div class="note warn">If you have a serious allergy or intolerance, explain your requirements to staff before placing an order. An independent menu guide cannot guarantee that a dish is safe for a particular individual.</div>
+</div>
+</section>
+
+<section id="official">
+<div class="w">
+<h2>Is Wetherspoons-Menus.uk an Official Website?</h2>
+<p class="lead">No. Wetherspoons-Menus.uk is an independent menu-information website, not the official JD Wetherspoon corporate website.</p>
+<p>This distinction is important because the independent website does not itself operate the pubs or control their menus, prices, opening hours, and promotions.</p>
+<p>Readers can use the website to explore menu categories and learn about available options. For bookings or hotel information, customer service, official ordering, or confirmation of current menu details, visit the relevant official JD Wetherspoon channel.</p>
+<p>Understanding this difference helps readers use independent information responsibly without confusing it with direct company services.</p>
+</div>
+</section>
+
+<section id="conclusion">
+<div class="w">
+<h2>Conclusion</h2>
+<p class="lead">Wetherspoons-Menus.uk provides a convenient starting point for people who want to explore Wetherspoons menu categories, compare food choices, and research prices or nutritional information before visiting a pub.</p>
+<p>Its category-based approach can help users discover breakfast options, burgers, curries, pub classics, lighter meals, desserts, and children's food. It can also help readers identify questions they may need to resolve before ordering, particularly when budget or dietary requirements are important.</p>
+<p>However, an independent menu guide should not be treated as a guarantee of current prices, ingredients, promotions, or local availability. Checking the official JD Wetherspoon website, app, or pub information remains the best way to confirm important details.</p>
+<p>By using Wetherspoons-Menus.uk for initial research and verifying essential information through official channels, customers can plan their visits more confidently and choose meals that suit their preferences.</p>
+</div>
+</section>
+
+<section id="faq">
+<div class="w">
+<h2>Frequently Asked Questions (FAQs)</h2>
+<details><summary>1. What is Wetherspoons-Menus.uk?</summary><p>Wetherspoons-Menus.uk is an independent website that provides information about Wetherspoons menu categories, food options, prices, and related dining details.</p></details>
+<details><summary>2. Is Wetherspoons-Menus.uk the official JD Wetherspoon website?</summary><p>No. It is an independent information website and is not the official JD Wetherspoon company website.</p></details>
+<details><summary>3. What menu categories can I explore on the website?</summary><p>The website covers categories such as breakfast, burgers, chicken, curries, pub classics, pizza, small plates, desserts, children's meals, and sides.</p></details>
+<details><summary>4. Can I find Wetherspoons menu prices on the website?</summary><p>The website provides menu-related price information. However, prices may vary by pub and change over time, so confirm the current amount through official channels.</p></details>
+<details><summary>5. Does Wetherspoons-Menus.uk provide calorie information?</summary><p>It includes nutritional information for menu items where available. For important dietary decisions, verify the latest information through JD Wetherspoon's official resources.</p></details>
+<details><summary>6. Can I use the website to check vegetarian and vegan options?</summary><p>Yes. It covers vegetarian and vegan menu categories, but you should verify the ingredients and current availability of each dish before ordering.</p></details>
+<details><summary>7. How can I check food allergens?</summary><p>Consult the official JD Wetherspoon allergen information and speak with staff before ordering if you have an allergy or intolerance.</p></details>
+<details><summary>8. Are all Wetherspoons menu items available at every pub?</summary><p>Not necessarily. Menu selection, prices, and promotional offers can differ by location and may change over time.</p></details>
+<details><summary>9. Can I order food directly through Wetherspoons-Menus.uk?</summary><p>The website is an informational resource rather than the official ordering service. Use the official JD Wetherspoon app or the ordering method provided at your chosen pub.</p></details>
+<details><summary>10. Where should I confirm the latest Wetherspoons menu?</summary><p>Visit the official JD Wetherspoon website or use its official app and local pub information to confirm current menus, prices, opening hours, and offers.</p></details>
+</div>
+</section>
+</main>
+
+<!-- FOOTER -->
+<footer>
+<div class="w">
+<div class="fg">
+<div>
+<h4>Wetherspoons-Menus.uk</h4>
+<p>An independent guide to Wetherspoons menu categories, prices, nutrition and dietary options. Not affiliated with JD Wetherspoon. Always confirm details with your local pub.</p>
+<div class="soc">
+<a href="#" aria-label="Facebook"><svg><use href="#fb"/></svg></a>
+<a href="#" aria-label="X / Twitter"><svg><use href="#tw"/></svg></a>
+<a href="#" aria-label="Instagram"><svg><use href="#ig"/></svg></a>
+<a href="#" aria-label="YouTube"><svg><use href="#yt"/></svg></a>
+</div>
+</div>
+<div><h4>Explore</h4><ul><li><a href="#features">Features</a></li><li><a href="#food">Food Menu</a></li><li><a href="#glance">Categories</a></li><li><a href="#prices">Prices</a></li></ul></div>
+<div><h4>Quick Links</h4><ul><li><a href="#diet">Dietary Info</a></li><li><a href="#official">Official Site?</a></li><li><a href="#faq">FAQs</a></li></ul></div>
+</div>
+<div class="copy">© 2026 Wetherspoons-Menus.uk. Independent informational website. Prices and availability may vary by pub.</div>
+</div>
+</footer>
+</body>
+</html>
+
+
